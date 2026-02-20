@@ -1,0 +1,41 @@
+# Ignore sensitive and system files
+config/database.php
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore uploads and cache (optional, remove uploads/ if you want to keep sample images)
+uploads/
+assets/images/pets/
+
+# Ignore vendor if using Composer
+/vendor/
+
+# Ignore node_modules if using npm
+dist/
+node_modules/
+
+# Ignore environment files
+.env
+.env.*
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore test output
+coverage/
+
+# Ignore SQL dumps (optional)
+*.sql 

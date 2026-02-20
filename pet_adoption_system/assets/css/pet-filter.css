@@ -1,0 +1,51 @@
+.filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+.filter-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background-color: #e9ecef;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    color: #495057;
+}
+
+.filter-chip .remove-filter {
+    background: none;
+    border: none;
+    color: #6c757d;
+    margin-left: 8px;
+    padding: 0;
+    cursor: pointer;
+    font-size: 0.75rem;
+}
+
+.filter-chip .remove-filter:hover {
+    color: #dc3545;
+}
+
+/* Loading state */
+.pet-grid.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Smooth transitions */
+.pet-card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Search input focus state */
+#search:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    border-color: #80bdff;
+} 
